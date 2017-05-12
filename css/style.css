@@ -1,0 +1,49 @@
+html {
+  height: 100%;
+}
+
+body {
+  background: lightgrey;
+  background: -webkit-linear-gradient(left top, lightgrey, white);
+  background: -o-linear-gradient(left top, lightgrey, white);
+  background: -moz-linear-gradient(left top, lightgrey, white);
+  background: linear-gradient(left top, lightgrey, white);
+  position: relative;
+  min-height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  display:inline!important;
+  margin-bottom:5px;
+}
+
+a > img:hover {
+  opacity:0.5;
+}
+
+.logo:hover {
+  opacity: 1!important;
+}
+
+.row {
+  margin-top:30px;
+}
+
+.col-sm-3 {
+  margin-bottom:30px;
+}
+
+
+.footer {
+  position:absolute;
+  right: 0;
+  bottom:0;
+  left:0;
+  text-align: center;
+}
